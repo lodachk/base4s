@@ -1,0 +1,2 @@
+logs = w3.eth.get_logs({"fromBlock": "0x0", "address": user})
+print("Events:", len(logs))
